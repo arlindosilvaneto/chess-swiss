@@ -70,7 +70,7 @@ function ChessTournamentPairing() {
 
   return (
     <div className="block">
-      <h1>Chess Tournament Pairing Generator</h1>
+      <h1>Gerador de Pareamentos para Torneios</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="num-players">Número de Jogadores:</label>
         <input
